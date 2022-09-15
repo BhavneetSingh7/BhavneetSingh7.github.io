@@ -3,6 +3,7 @@
     box-shadow: 0 5px 5px rgba(128, 128, 128, 0.58);
     background-color: white;
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
 }
 .sticky {
     position: fixed;
@@ -11,6 +12,7 @@
 }
 .content {
     padding: 0px;
+    
 }
 .sticky + .content {
     padding-top: 102px;
@@ -64,4 +66,18 @@ h1 {
 body {
     margin: 0;
     font-family: 'Outfit', sans-serif;
+}
+@media (max-width:600px) {
+    h1 {
+        font-size: 60px;
+    }
+    .sticky + .content {
+        padding-top: 102px;
+    }
+    #start {
+        padding-left: 20px;
+    }
+    .card-grid {
+        margin-left: 2%;
+    }
 }
