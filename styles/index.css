@@ -1,0 +1,67 @@
+.header {
+    padding: 15px 15px 15px 25px;
+    box-shadow: 0 5px 5px rgba(128, 128, 128, 0.58);
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.content {
+    padding: 0px;
+}
+.sticky + .content {
+    padding-top: 102px;
+}
+#start {
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-top: 7px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+}
+.showcase {
+    display: flex;
+    flex-direction: column;
+}
+.card-grid {
+    margin-bottom: 40px;
+    max-width: 1050px;
+    margin-left: 12%;
+}
+.card {
+    display: inline-block;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 300px;
+    box-shadow: 0px 10px 15px gray;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card-image {
+    width: 300px;
+}
+.para {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+p {
+    margin: 0;
+}
+.cards-link {
+    text-align: center;
+    margin-bottom: 50px;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
