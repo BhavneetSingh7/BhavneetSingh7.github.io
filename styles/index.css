@@ -67,7 +67,7 @@ body {
     margin: 0;
     font-family: 'Outfit', sans-serif;
 }
-@media (max-width:600px) {
+@media (max-width:601px) {
     h1 {
         font-size: 60px;
     }
