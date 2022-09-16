@@ -13,15 +13,29 @@
 </head>
 <body>
     <div class="header" id="header">
-        <h2>Home | Designs</h2>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="https://bhavneet.pythonanywhere.com" class="side-menu">Main</a>
+            <a href="#work" class="side-menu">Work</a>
+            <a href="https://github.com/BhavneetSingh7" class="side-menu">Github</a>
+            <a href="#" class="side-menu">About</a>
+        </div>
+        <span onclick="openNav()" class="openbtn">&#9776;</span>
+        <h2 id="home">Home | Designs</h2>
+        <div id="topnav" class="topnav">
+            <a href="https://bhavneet.pythonanywhere.com" class="top-menu">Main</a>
+            <a href="#work" class="top-menu">Work</a>
+            <a href="https://github.com/BhavneetSingh7" class="top-menu">Github</a>
+            <a href="#" class="top-menu">About</a>
+        </div>
+    </div>
+    <div id="start">
+        <h1>Simple.</h1>
+        <h1>Responsive.</h1>
+        <h1>Interactive.</h1>
     </div>
     <div class="content">
-        <div id="start">
-            <h1>Simple.</h1>
-            <h1>Responsive.</h1>
-            <h1>Interactive.</h1>
-        </div>
-        <div class="showcase">
+        <div class="showcase" id="work">
             <div class="card-grid"> <div class="card"><img src="images/cards.jpg" alt="" class="card-image">
                 <div class="para">
                     <h4>Card-n</h4>
