@@ -15,6 +15,7 @@
     padding-left: 5%;
     padding-right: 2%;
     font-size: 20px;
+    cursor: pointer;
 }
 .sidenav {
     height: 100%;
