@@ -38,6 +38,7 @@
     text-decoration: none;
     color: black;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 .side-menu {
     display: block;
