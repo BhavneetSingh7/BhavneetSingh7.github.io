@@ -5,6 +5,7 @@
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-left: 20px;
     background-color: white;
 }
 .sticky {
@@ -60,7 +61,7 @@
 #home {
     display: inline-block;
     padding-left: 15px;
-    padding-right: 30%;
+    padding-right: 33%;
     margin:0;
 }
 .topnav {
@@ -74,17 +75,72 @@
     font-size: 27px;
     overflow: hidden;
 }
-.content {
-    padding: 20px 5% 20px 5%;
-}
 #start {
     background-color: whitesmoke;
     width: 96%;
     font-size: 27px;
     margin-top: 7px;
     padding-left: 4%;
+    padding-right: 4%;
     padding-bottom: 30px;
     /* padding-top: 1px; */
+}
+.content {
+    padding: 20px 0 20px 0;
+}
+.card-grid {
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+.card {
+    display: inline-block;
+    min-width: 250px;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px gray;
+    margin: 10px;
+    overflow: hidden;
+}
+.para {
+    width: 90%;
+    padding-left: 5%;
+}
+.cards-link {
+    margin-top:25px;
+    margin-bottom:25px;
+    text-align: center;
+}
+.cards-link:hover {
+    text-decoration: underline;
+}
+
+
+@media (min-width:500px) {
+    .card-grid {
+        padding-left: 18%;
+        padding-right: 15%;
+    }
+}
+@media (min-width:680px) {
+    .card-grid {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+@media (min-width:800px) {
+    .card-grid {
+        padding-left: 9%;
+    }
+    .card {
+        margin-right: 5%;
+    }
+}
+@media (min-width:1000px) {
+    .card-grid {
+        padding-left: 11%;
+    }
 }
 @media (min-width:768px) {
     .header {
@@ -130,7 +186,7 @@
 }
 @media (max-width:1030px) {
     #home {
-        padding-right: 15%;
+        padding-right: 20%;
     }
 }
 h1 {
@@ -138,7 +194,7 @@ h1 {
     padding: 5px 0 10px 0;
 }
 img {
-    width: 30px;
+    width: 300px;
 }
 a {
     text-decoration: none;
