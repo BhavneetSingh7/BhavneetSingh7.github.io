@@ -18,7 +18,7 @@ function closeNav() {
 }
 
 document.onclick = function(e) {
-if (e.target.id !== 'mySidenav' && document.getElementById("mySidenav").style.width === "0px") {
+if (e.target.id === 'mySidenav' && document.getElementById("mySidenav").style.width === "0px") {
         openNav();
    }
     if (e.target.id !== 'mySidenav' && document.getElementById("mySidenav").style.width === "250px") {
