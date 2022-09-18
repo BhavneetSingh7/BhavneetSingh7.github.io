@@ -16,3 +16,9 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+document.onclick = function(e) {
+    if (e.target.id !== 'mySidenav' && document.getElementById("mySidenav").style.width === "250px") {
+        closeNav();
+   }
+}
